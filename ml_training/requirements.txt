@@ -1,0 +1,2 @@
+numpy>=1.26
+tensorflow>=2.14        # tensorflow-cpu is sufficient; used for training and TFLite conversion only

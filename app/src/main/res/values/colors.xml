@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0B5CAD</color>
+    <color name="colorPrimaryDark">#084580</color>
+    <color name="colorAccent">#0B5CAD</color>
+    <color name="hw_bg">#F4F7FB</color>
+    <color name="hw_card">#FFFFFF</color>
+    <color name="hw_border">#D5DCE6</color>
+    <color name="hw_text">#1B2733</color>
+    <color name="hw_text_secondary">#44505E</color>
+    <color name="hw_heart">#B42318</color>
+    <color name="hw_bp">#2A4BB5</color>
+    <color name="hw_resp">#0B7A6C</color>
+    <color name="hw_spo2">#6B2FA3</color>
+    <color name="hw_warn_bg">#FEF0C7</color>
+    <color name="hw_warn_text">#7A2E0E</color>
+    <color name="hw_error_bg">#FEE4E2</color>
+    <color name="hw_error_text">#912018</color>
+    <color name="hw_ok_bg">#DCFAE6</color>
+    <color name="hw_ok_text">#054F31</color>
+    <color name="hw_on_primary">#FFFFFF</color>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_about_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hw_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:contentDescription="HealthWatcher logo"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/logo" />
+
+        <TextView
+            style="@style/HwTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:accessibilityHeading="true"
+            android:text="About HealthWatcher" />
+
+        <TextView
+            style="@style/HwBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="This application was made as a graduation project at Princess Sumaya University for Technology by Yahya Odeh and Talal Kudmani." />
+
+        <TextView
+            style="@style/HwBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="How values are produced"
+            android:textColor="@color/hw_text"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/HwBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Your phone camera and flash record a 30 second fingertip pulse signal. It is quality-checked and analysed on the device only; nothing is uploaded. Heart and respiratory rate use frequency analysis. Blood pressure and oxygen saturation use uncalibrated formulas and are experimental. A trained ML model is used as the main result only if one is installed AND declared validated; otherwise it is shown only as an experimental comparison." />
+
+        <TextView
+            style="@style/HwBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Installed ML models"
+            android:textColor="@color/hw_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/modelStatus"
+            style="@style/HwBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_card"
+            android:lineSpacingExtra="4dp"
+            android:padding="12dp" />
+
+        <TextView
+            style="@style/HwBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="HealthWatcher is not a medical device. Do not use it to diagnose, treat or make medical decisions."
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

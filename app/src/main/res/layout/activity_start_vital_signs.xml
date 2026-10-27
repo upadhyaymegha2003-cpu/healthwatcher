@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hw_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/startTitle"
+            style="@style/HwTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:accessibilityHeading="true" />
+
+        <TextView
+            style="@style/HwBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/bg_card"
+            android:lineSpacingExtra="4dp"
+            android:padding="16dp"
+            android:text="Before you start\n\n1. Sit down and rest your hand on a table.\n2. Cover the rear camera lens AND the flash fully with your fingertip.\n3. Press gently - not hard.\n4. Stay still for 30 seconds. The timer starts when your finger is detected and restarts if you move it away.\n\nThe camera flash will turn on. If the signal is too weak or noisy you will be asked to measure again instead of getting an unreliable number." />
+
+        <Button
+            android:id="@+id/StartVS"
+            style="@style/HwPrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Start" />
+    </LinearLayout>
+</ScrollView>
